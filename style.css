@@ -483,6 +483,9 @@ body {
     flex-wrap: nowrap;
     gap: 30px;
   }
+  #es-armani.es-armani .es-banner--reverse {
+    flex-direction: row-reverse;
+  }
   #es-armani.es-armani .es-banner__content {
     min-width: 45%;
   }
@@ -553,6 +556,13 @@ body {
   }
   #es-armani.es-armani .es-video {
     margin-bottom: 50px;
+  }
+  #es-armani.es-armani .es-banner--last {
+    gap: 0;
+  }
+  #es-armani.es-armani .es-banner__image--footer {
+    margin-right: 0;
+    margin-left: 0;
   }
   #es-armani.es-armani .es-banner__content--first {
     max-width: 46%;

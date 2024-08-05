@@ -535,6 +535,10 @@ body {
       flex-wrap: nowrap;
       gap: 30px;
 
+      &--reverse {
+        flex-direction: row-reverse;
+      }
+
       &__content {
         min-width: 45%;
       }
@@ -621,6 +625,15 @@ body {
     }
 
     .es-banner {
+      &--last {
+        gap: 0;
+      }
+
+      &__image--footer {
+        margin-right: 0;
+        margin-left: 0;
+      }
+
       &__content {
         &--first {
           max-width: 46%;
